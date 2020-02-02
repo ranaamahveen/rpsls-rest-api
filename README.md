@@ -1,68 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Download and Installation
+1. Clone the repository
+2. Install react app globally :
+   - npm install create-react-app in command prompt 
+3. Go to project folder and type the following command to install all npm packages
+   - npm install
+   - npm install bootstrap
+   - npm install axios express body-parser cors
+4. To run the react application Type the following command 
+   - npm start\
+   This opens the application in the browser
+#### Front end application runs on localhost:3000
+5. To run the server, open another instance of command promt in project folder and run below command
+   - nodemon server 
+#### Server runs on localhost:4000
 
-## Available Scripts
+## Game Instructions
+1. Choose an icon on the left to start the game
+2. Selected icons are shown below the robot and human icons on the right
+3. Result of the game is shown 
+4. Recent 10 results are shown to the extreme right
+5. Reset button resets the score
+##### Source credits
+###### Image sources
+**Rock, paper, scissors, lizard, spock icons:** https://www.google.com/search?q=rock+paper+scissors+lizard+spock+images&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiAq7H1xLPnAhWaHzQIHQTZAokQ_AUoAXoECA4QAw&biw=1440&bih=730#imgrc=1QH1GWiH9cO8XM \
+**human icon**: https://www.iconfinder.com/icons/2254131/avatar_circle_general_human_person_user_icon \
+**robot icon:** http://getdrawings.com/bot-icon \
+**'vs' icon:** https://www.vectorstock.com/royalty-free-vector/vs-letters-competition-icon-vector-14479586 \
+**win:** https://nohat.cc/f/happy-cartoon-character-winning-a-prize/5919837209493504-201809041045.html \
+**lose:** https://www.vectorstock.com/royalty-free-vector/you-lose-comic-speech-bubble-cartoon-game-assets-vector-9673507 \
+**tied:** https://www.123rf.com/photo_96584519_black-rope-knot-in-hands-on-white-background-isolation.html
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
