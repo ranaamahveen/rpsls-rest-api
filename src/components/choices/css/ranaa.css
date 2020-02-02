@@ -1,0 +1,40 @@
+img {
+  border-radius: 50%;
+  border: solid 5px;
+}
+div.background {
+  background-color: #000000;
+}
+.brightness {
+  background-color: dark;
+  display: inline-block;
+}
+.brightnessimg img:hover {
+  border: solid 5px white;
+}
+.circle-container {
+  margin: 5em auto 0;
+}
+.border-container {
+  border: solid 5px grey;
+}
+.border-result {
+  border: solid 3px white;
+}
+.border-circle {
+  border: solid 3px black;
+}
+.border-choice img {
+  border: solid 3px red;
+}
+div.relative {
+  position: relative;
+}
+
+/* win: https://nohat.cc/f/happy-cartoon-character-winning-a-prize/5919837209493504-201809041045.html
+lose: https://www.vectorstock.com/royalty-free-vector/you-lose-comic-speech-bubble-cartoon-game-assets-vector-9673507
+human vs computer: https://www.harnham.com/us/post/2017-5/artificial-intelligence-vs-human-intelligence
+human: https://www.iconfinder.com/icons/2254131/avatar_circle_general_human_person_user_icon
+computer: http://getdrawings.com/bot-icon
+vs: https://www.vectorstock.com/royalty-free-vector/vs-letters-competition-icon-vector-14479586
+tied: https://www.123rf.com/photo_96584519_black-rope-knot-in-hands-on-white-background-isolation.html*/
